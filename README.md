@@ -66,7 +66,7 @@
       <br/>
     </td>
     <td width="35%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/gist/kanchn-https/8b2d1c9/coder.gif" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80'" width="90%" style="border-radius:16px; border: 2px solid #EF93C4; box-shadow: 0 8px 24px rgba(239, 147, 196, 0.25);" alt="Developer Illustration" />
+      <img src="assets/portrait.jpg" width="90%" style="border-radius:16px; border: 2px solid #EF93C4; box-shadow: 0 8px 24px rgba(239, 147, 196, 0.35);" alt="Kanchan Bhatt Portrait" />
     </td>
   </tr>
 </table>
@@ -269,7 +269,7 @@
   <a href="https://linkedin.com/in/kanchan-bhatt">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:kanchanbhatt.dev@gmail.com">
+  <a href="mailto:kanchnabhatt1606@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/kanchn-https">
