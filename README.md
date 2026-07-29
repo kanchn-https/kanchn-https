@@ -66,7 +66,7 @@
       <br/>
     </td>
     <td width="35%" align="center" valign="middle">
-      <img src="assets/portrait.jpg" width="90%" style="border-radius:16px; border: 2px solid #EF93C4; box-shadow: 0 8px 24px rgba(239, 147, 196, 0.35);" alt="Kanchan Bhatt Portrait" />
+      <img src="assets/portrait.jpg" width="100%" style="border-radius: 16px; border: 2px solid #EF93C4; box-shadow: 0 8px 24px rgba(239, 147, 196, 0.35); display: block;" alt="Kanchan Bhatt Portrait" />
     </td>
   </tr>
 </table>
