@@ -3,43 +3,43 @@
     <!-- Light Theme Color Gradients -->
     <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#FFF0F5"/>
+      <stop offset="50%" stop-color="#2E0A14"/>
       <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
 
     <linearGradient id="accent-pink-light" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#D946EF">
-        <animate attributeName="stop-color" values="#D946EF;#FF69B4;#EC4899;#2563EB;#D946EF" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#D946EF;#E63946;#EC4899;#2563EB;#D946EF" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#FF69B4">
-        <animate attributeName="stop-color" values="#FF69B4;#EC4899;#2563EB;#06B6D4;#FF69B4" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#E63946">
+        <animate attributeName="stop-color" values="#E63946;#EC4899;#2563EB;#06B6D4;#E63946" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#EF93C4">
-        <animate attributeName="stop-color" values="#EF93C4;#2563EB;#06B6D4;#10B981;#EF93C4" dur="8s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#C41E3A">
+        <animate attributeName="stop-color" values="#C41E3A;#2563EB;#06B6D4;#10B981;#C41E3A" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <linearGradient id="card-border-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF69B4" stop-opacity="0.5"/>
-      <stop offset="30%" stop-color="#EF93C4" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#C41E3A" stop-opacity="0.25"/>
       <stop offset="70%" stop-color="#2563EB" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.4"/>
     </linearGradient>
 
     <linearGradient id="pill-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFF0F6" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#3D0C1B" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.95"/>
     </linearGradient>
 
     <linearGradient id="scanline-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FF69B4" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#EF93C4" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#FF69B4" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C41E3A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#E63946" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Radial Glows -->
     <radialGradient id="glow-top-left-light" cx="20%" cy="20%" r="50%">
-      <stop offset="0%" stop-color="#FF69B4" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
 
@@ -51,7 +51,7 @@
     <!-- Filters -->
     <filter id="shadow-light" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.08"/>
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#FF69B4" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#E63946" flood-opacity="0.12"/>
     </filter>
 
     <filter id="glow-pink-light" x="-20%" y="-20%" width="140%" height="140%">
@@ -62,7 +62,7 @@
     <!-- Pattern -->
     <pattern id="grid-pattern-light" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0F172A" stroke-opacity="0.03" stroke-width="1"/>
-      <circle cx="30" cy="30" r="1" fill="#FF69B4" fill-opacity="0.15"/>
+      <circle cx="30" cy="30" r="1" fill="#E63946" fill-opacity="0.15"/>
     </pattern>
 
     <!-- Clip Paths -->
@@ -90,7 +90,7 @@
 
   <!-- Animated Floating Particles -->
   <g opacity="0.7">
-    <circle cx="120" cy="100" r="2" fill="#FF69B4">
+    <circle cx="120" cy="100" r="2" fill="#E63946">
       <animate attributeName="cy" values="100;80;100" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/>
     </circle>
@@ -126,7 +126,7 @@
 
     <!-- Terminal Header Title -->
     <text x="245" y="65" fill="#475569" class="font-mono" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">ASCII // PORTRAIT.SYS</text>
-    <rect x="390" y="53" width="45" height="16" rx="8" fill="#FF69B4" fill-opacity="0.12" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+    <rect x="390" y="53" width="45" height="16" rx="8" fill="#E63946" fill-opacity="0.12" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
     <text x="412.5" y="64" fill="#D946EF" class="font-mono" font-size="9" font-weight="700" text-anchor="middle">v2.4</text>
 
     <!-- Scanline Sweep Effect -->
@@ -139,7 +139,7 @@
     <!-- ASCII Art Portrait Body -->
     <g class="font-mono" font-size="10.5" font-weight="700" letter-spacing="1.2">
       <!-- Background Cyber Matrix Glow Lines -->
-      <g opacity="0.12" fill="#FF69B4">
+      <g opacity="0.12" fill="#E63946">
         <text x="60" y="115">01001011 01000001 01001110 01000011</text>
         <text x="60" y="130">01001000 01000001 01001110 01011111</text>
         <text x="60" y="145">01000010 01001000 01000001 01010100</text>
@@ -177,11 +177,11 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.4s" fill="freeze"/>
           &#160;&#160;/&#160;&#160;/\  /\&#160; \&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
         </text>
-        <text x="80" y="255" opacity="0" fill="#FF69B4">
+        <text x="80" y="255" opacity="0" fill="#E63946">
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze"/>
           &#160;|&#160; ( &#9679;)( &#9679;)&#160; |&#160; [DEV_MODE]
         </text>
-        <text x="80" y="270" opacity="0" fill="#FF69B4">
+        <text x="80" y="270" opacity="0" fill="#E63946">
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.8s" fill="freeze"/>
           &#160;|&#160;&#160;&#160;&#160;||||&#160;&#160;&#160;&#160;|&#160;&#160;
         </text>
@@ -195,11 +195,11 @@
         </text>
 
         <!-- Cyber Badge Box -->
-        <rect x="70" y="325" width="350" height="155" rx="12" fill="#F8FAFC" fill-opacity="0.8" stroke="#FF69B4" stroke-opacity="0.3" stroke-width="1"/>
+        <rect x="70" y="325" width="350" height="155" rx="12" fill="#F8FAFC" fill-opacity="0.8" stroke="#E63946" stroke-opacity="0.3" stroke-width="1"/>
         <text x="85" y="350" fill="#0F172A" font-size="11" font-weight="700">&gt; USER_PROFILE_DATA</text>
         
         <text x="85" y="372" fill="#475569" font-size="10.5">&gt; NAME&#160;&#160;&#160;&#160;: <tspan fill="#D946EF">Kanchan Bhatt</tspan></text>
-        <text x="85" y="392" fill="#475569" font-size="10.5">&gt; ROLE&#160;&#160;&#160;&#160;: <tspan fill="#FF69B4">Software Engineer</tspan></text>
+        <text x="85" y="392" fill="#475569" font-size="10.5">&gt; ROLE&#160;&#160;&#160;&#160;: <tspan fill="#E63946">Software Engineer</tspan></text>
         <text x="85" y="412" fill="#475569" font-size="10.5">&gt; ALGO&#160;&#160;&#160;&#160;: <tspan fill="#EC4899">C++ / Python / Go</tspan></text>
         <text x="85" y="432" fill="#475569" font-size="10.5">&gt; STACK&#160;&#160;&#160;: <tspan fill="#0284C7">React / Next / Node</tspan></text>
         <text x="85" y="452" fill="#475569" font-size="10.5">&gt; STATUS&#160;&#160;: <tspan fill="#059669">BUILDING THE FUTURE</tspan></text>
@@ -208,10 +208,10 @@
 
     <!-- Terminal Footer Line & Blinking Neon Cursor -->
     <g transform="translate(70, 520)" class="font-mono">
-      <rect x="0" y="-18" width="350" height="34" rx="8" fill="#FFF0F5" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+      <rect x="0" y="-18" width="350" height="34" rx="8" fill="#2E0A14" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
       <text x="12" y="4" fill="#D946EF" font-size="11.5" font-weight="700">&gt; kanchan@dev:~$ <tspan fill="#0F172A">exec profile</tspan></text>
       <!-- Blinking Cursor -->
-      <rect x="205" y="-9" width="7" height="15" fill="#FF69B4" class="blink"/>
+      <rect x="205" y="-9" width="7" height="15" fill="#E63946" class="blink"/>
     </g>
   </g>
 
@@ -253,7 +253,7 @@
 
       <!-- Sequential Animated Typewriter Subtitle -->
       <g transform="translate(0, 58)" class="font-mono" font-size="15" font-weight="700">
-        <text x="0" y="0" fill="#FF69B4">&gt;&#160;</text>
+        <text x="0" y="0" fill="#E63946">&gt;&#160;</text>
         
         <!-- Phrase 1: Computer Science Student -->
         <g opacity="0">
@@ -264,7 +264,7 @@
         <!-- Phrase 2: Full Stack Developer -->
         <g opacity="0">
           <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.25;0.47;0.49;1" dur="14s" repeatCount="indefinite"/>
-          <text x="20" y="0" fill="#FF69B4">Full Stack Developer</text>
+          <text x="20" y="0" fill="#E63946">Full Stack Developer</text>
         </g>
         
         <!-- Phrase 3: Open Source Contributor -->
@@ -280,39 +280,39 @@
         </g>
 
         <!-- Animated Typing Cursor -->
-        <rect x="290" y="-12" width="8" height="17" fill="#FF69B4" class="blink"/>
+        <rect x="290" y="-12" width="8" height="17" fill="#E63946" class="blink"/>
       </g>
 
       <!-- Quick Info / Details Grid Cards -->
       <g transform="translate(0, 80)">
         <!-- Card 1: Location -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="285" height="38" rx="10" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.25" stroke-width="1"/>
-          <text x="14" y="24" fill="#FF69B4" class="font-sans" font-size="14">📍</text>
+          <rect x="0" y="0" width="285" height="38" rx="10" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.25" stroke-width="1"/>
+          <text x="14" y="24" fill="#E63946" class="font-sans" font-size="14">📍</text>
           <text x="38" y="23" fill="#475569" class="font-sans" font-size="11.5" font-weight="600">Location:</text>
           <text x="100" y="23" fill="#0F172A" class="font-sans" font-size="11.5" font-weight="700">India 🇮🇳</text>
         </g>
 
         <!-- Card 2: Education -->
         <g transform="translate(300, 0)">
-          <rect x="0" y="0" width="290" height="38" rx="10" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.25" stroke-width="1"/>
-          <text x="14" y="24" fill="#FF69B4" class="font-sans" font-size="14">🎓</text>
+          <rect x="0" y="0" width="290" height="38" rx="10" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.25" stroke-width="1"/>
+          <text x="14" y="24" fill="#E63946" class="font-sans" font-size="14">🎓</text>
           <text x="38" y="23" fill="#475569" class="font-sans" font-size="11.5" font-weight="600">Edu:</text>
           <text x="75" y="23" fill="#0F172A" class="font-sans" font-size="11.5" font-weight="700">B.Tech Computer Science</text>
         </g>
 
         <!-- Card 3: Focus -->
         <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="285" height="38" rx="10" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.25" stroke-width="1"/>
-          <text x="14" y="24" fill="#FF69B4" class="font-sans" font-size="14">🎯</text>
+          <rect x="0" y="0" width="285" height="38" rx="10" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.25" stroke-width="1"/>
+          <text x="14" y="24" fill="#E63946" class="font-sans" font-size="14">🎯</text>
           <text x="38" y="23" fill="#475569" class="font-sans" font-size="11.5" font-weight="600">Focus:</text>
           <text x="85" y="23" fill="#0F172A" class="font-sans" font-size="11.5" font-weight="700">Full Stack &amp; AI Systems</text>
         </g>
 
         <!-- Card 4: Email / Portfolio -->
         <g transform="translate(300, 48)">
-          <rect x="0" y="0" width="290" height="38" rx="10" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.25" stroke-width="1"/>
-          <text x="14" y="24" fill="#FF69B4" class="font-sans" font-size="14">✉️</text>
+          <rect x="0" y="0" width="290" height="38" rx="10" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.25" stroke-width="1"/>
+          <text x="14" y="24" fill="#E63946" class="font-sans" font-size="14">✉️</text>
           <text x="38" y="23" fill="#475569" class="font-sans" font-size="11.5" font-weight="600">Contact:</text>
           <text x="95" y="23" fill="#D946EF" class="font-sans" font-size="11.5" font-weight="700">kanchnabhatt1606@gmail</text>
         </g>
@@ -330,49 +330,49 @@
         <g transform="translate(0, 25)">
           <!-- C++ -->
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="62" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="62" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="31" y="18" fill="#D946EF" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">C++</text>
             <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="4s" repeatCount="indefinite"/>
           </g>
 
           <!-- Python -->
           <g transform="translate(70, 0)">
-            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="38" y="18" fill="#EC4899" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Python</text>
             <animateTransform attributeName="transform" type="translate" values="70,0; 70,-4; 70,0" dur="4.5s" begin="0.3s" repeatCount="indefinite"/>
           </g>
 
           <!-- JavaScript -->
           <g transform="translate(154, 0)">
-            <rect x="0" y="0" width="94" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
-            <text x="47" y="18" fill="#FF69B4" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">JavaScript</text>
+            <rect x="0" y="0" width="94" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
+            <text x="47" y="18" fill="#E63946" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">JavaScript</text>
             <animateTransform attributeName="transform" type="translate" values="154,0; 154,-3; 154,0" dur="3.8s" begin="0.6s" repeatCount="indefinite"/>
           </g>
 
           <!-- TypeScript -->
           <g transform="translate(256, 0)">
-            <rect x="0" y="0" width="96" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="96" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="48" y="18" fill="#0284C7" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">TypeScript</text>
             <animateTransform attributeName="transform" type="translate" values="256,0; 256,-4; 256,0" dur="5s" begin="0.2s" repeatCount="indefinite"/>
           </g>
 
           <!-- React -->
           <g transform="translate(360, 0)">
-            <rect x="0" y="0" width="70" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="70" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="35" y="18" fill="#D946EF" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">React</text>
             <animateTransform attributeName="transform" type="translate" values="360,0; 360,-3; 360,0" dur="4.2s" begin="0.8s" repeatCount="indefinite"/>
           </g>
 
           <!-- Next.js -->
           <g transform="translate(438, 0)">
-            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="38" y="18" fill="#0F172A" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Next.js</text>
             <animateTransform attributeName="transform" type="translate" values="438,0; 438,-4; 438,0" dur="4.7s" begin="0.4s" repeatCount="indefinite"/>
           </g>
 
           <!-- Node.js -->
           <g transform="translate(522, 0)">
-            <rect x="0" y="0" width="70" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="70" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="35" y="18" fill="#059669" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Node.js</text>
             <animateTransform attributeName="transform" type="translate" values="522,0; 522,-3; 522,0" dur="3.9s" begin="0.7s" repeatCount="indefinite"/>
           </g>
@@ -382,50 +382,50 @@
         <g transform="translate(0, 62)">
           <!-- Express -->
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="76" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="38" y="18" fill="#EC4899" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Express</text>
             <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="4.6s" begin="0.5s" repeatCount="indefinite"/>
           </g>
 
           <!-- MongoDB -->
           <g transform="translate(84, 0)">
-            <rect x="0" y="0" width="88" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="88" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="44" y="18" fill="#059669" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">MongoDB</text>
             <animateTransform attributeName="transform" type="translate" values="84,0; 84,-3; 84,0" dur="4.1s" begin="0.1s" repeatCount="indefinite"/>
           </g>
 
           <!-- Redis -->
           <g transform="translate(180, 0)">
-            <rect x="0" y="0" width="66" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="66" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="33" y="18" fill="#D946EF" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Redis</text>
             <animateTransform attributeName="transform" type="translate" values="180,0; 180,-4; 180,0" dur="4.8s" begin="0.9s" repeatCount="indefinite"/>
           </g>
 
           <!-- PostgreSQL -->
           <g transform="translate(254, 0)">
-            <rect x="0" y="0" width="98" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="98" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="49" y="18" fill="#0284C7" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">PostgreSQL</text>
             <animateTransform attributeName="transform" type="translate" values="254,0; 254,-3; 254,0" dur="3.7s" begin="0.3s" repeatCount="indefinite"/>
           </g>
 
           <!-- Tailwind -->
           <g transform="translate(360, 0)">
-            <rect x="0" y="0" width="82" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="82" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="41" y="18" fill="#0284C7" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Tailwind</text>
             <animateTransform attributeName="transform" type="translate" values="360,0; 360,-4; 360,0" dur="5.1s" begin="0.7s" repeatCount="indefinite"/>
           </g>
 
           <!-- Docker -->
           <g transform="translate(450, 0)">
-            <rect x="0" y="0" width="74" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="74" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
             <text x="37" y="18" fill="#2563EB" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Docker</text>
             <animateTransform attributeName="transform" type="translate" values="450,0; 450,-3; 450,0" dur="4.3s" begin="0.2s" repeatCount="indefinite"/>
           </g>
 
           <!-- Git -->
           <g transform="translate(532, 0)">
-            <rect x="0" y="0" width="60" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#FF69B4" stroke-opacity="0.4" stroke-width="1"/>
-            <text x="30" y="18" fill="#FF69B4" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Git</text>
+            <rect x="0" y="0" width="60" height="28" rx="14" fill="url(#pill-grad-light)" stroke="#E63946" stroke-opacity="0.4" stroke-width="1"/>
+            <text x="30" y="18" fill="#E63946" class="font-sans" font-size="11" font-weight="700" text-anchor="middle">Git</text>
             <animateTransform attributeName="transform" type="translate" values="532,0; 532,-4; 532,0" dur="4.4s" begin="0.6s" repeatCount="indefinite"/>
           </g>
         </g>
@@ -442,25 +442,25 @@
         <g transform="translate(380, 5)">
           <!-- GitHub Icon Button -->
           <g transform="translate(0, 0)">
-            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.5" stroke-width="1"/>
+            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.5" stroke-width="1"/>
             <path d="M16 7C11.03 7 7 11.03 7 16C7 19.98 9.58 23.35 13.15 24.54C13.6 24.62 13.76 24.35 13.76 24.11C13.76 23.9 13.75 23.34 13.75 22.58C11.25 23.12 10.72 21.37 10.72 21.37C10.31 20.33 9.72 20.05 9.72 20.05C8.91 19.49 9.78 19.5 9.78 19.5C10.68 19.57 11.15 20.43 11.15 20.43C11.95 21.8 13.25 21.4 13.76 21.17C13.84 20.59 14.07 20.19 14.33 19.96C12.33 19.74 10.23 18.97 10.23 15.52C10.23 14.54 10.58 13.74 11.15 13.11C11.06 12.88 10.75 11.96 11.24 10.72C11.24 10.72 12 10.48 13.76 11.67C14.48 11.47 15.24 11.37 16 11.37C16.76 11.37 17.52 11.47 18.24 11.67C20 10.48 20.76 10.72 20.76 10.72C21.25 11.96 20.94 12.88 20.85 13.11C21.42 13.74 21.77 14.54 21.77 15.52C21.77 18.98 19.66 19.73 17.66 19.95C17.98 20.23 18.27 20.78 18.27 21.63C18.27 22.84 18.26 23.82 18.26 24.11C18.26 24.35 18.42 24.63 18.88 24.54C22.42 23.35 25 19.98 25 16C25 11.03 20.97 7 16 7Z" fill="#D946EF"/>
           </g>
 
           <!-- LinkedIn Icon Button -->
           <g transform="translate(42, 0)">
-            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.5" stroke-width="1"/>
-            <path d="M10 11H13V22H10V11ZM11.5 7.5C10.67 7.5 10 8.17 10 9C10 9.83 10.67 10.5 11.5 10.5C12.33 10.5 13 9.83 13 9C13 8.17 12.33 7.5 11.5 7.5ZM15 11H17.8V12.5H17.84C18.23 11.76 19.19 10.98 20.61 10.98C23.57 10.98 24.12 12.93 24.12 15.47V22H21.12V16.77C21.12 15.52 21.1 13.92 19.38 13.92C17.64 13.92 17.37 15.28 17.37 16.68V22H14.37V11H15Z" fill="#FF69B4"/>
+            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.5" stroke-width="1"/>
+            <path d="M10 11H13V22H10V11ZM11.5 7.5C10.67 7.5 10 8.17 10 9C10 9.83 10.67 10.5 11.5 10.5C12.33 10.5 13 9.83 13 9C13 8.17 12.33 7.5 11.5 7.5ZM15 11H17.8V12.5H17.84C18.23 11.76 19.19 10.98 20.61 10.98C23.57 10.98 24.12 12.93 24.12 15.47V22H21.12V16.77C21.12 15.52 21.1 13.92 19.38 13.92C17.64 13.92 17.37 15.28 17.37 16.68V22H14.37V11H15Z" fill="#E63946"/>
           </g>
 
           <!-- Mail Icon Button -->
           <g transform="translate(84, 0)">
-            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.5" stroke-width="1"/>
+            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.5" stroke-width="1"/>
             <path d="M9 11L16 16L23 11M9 21H23C24.1 21 25 20.1 25 19V11C25 9.9 24.1 9 23 9H9C7.9 9 7 9.9 7 11V19C7 20.1 7.9 21 9 21Z" stroke="#EC4899" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </g>
 
           <!-- Portfolio / Globe Icon Button -->
           <g transform="translate(126, 0)">
-            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#FF69B4" stroke-opacity="0.5" stroke-width="1"/>
+            <circle cx="16" cy="16" r="16" fill="#F8FAFC" stroke="#E63946" stroke-opacity="0.5" stroke-width="1"/>
             <circle cx="16" cy="16" r="8" fill="none" stroke="#0284C7" stroke-width="1.6"/>
             <path d="M8 16H24M16 8C18 10.5 19 13.2 19 16C19 18.8 18 21.5 16 24C14 21.5 13 18.8 13 16C13 13.2 14 10.5 16 8Z" stroke="#0284C7" stroke-width="1.4" fill="none"/>
           </g>

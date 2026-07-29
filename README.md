@@ -15,7 +15,7 @@
 <!-- DYNAMIC TYPING BANNER                                                -->
 <!-- ==================================================================== -->
 <a href="https://github.com/kanchn-https">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=EF93C4&center=true&vCenter=true&width=700&height=50&lines=Computer+Science+Student;Full+Stack+%26+Backend+Engineer;AI+%26+Machine+Learning+Enthusiast;Open+Source+Contributor;Competitive+Programmer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=C41E3A&center=true&vCenter=true&width=700&height=50&lines=Computer+Science+Student;Full+Stack+%26+Backend+Engineer;AI+%26+Machine+Learning+Enthusiast;Open+Source+Contributor;Competitive+Programmer" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -25,13 +25,13 @@
 <!-- ==================================================================== -->
 <p align="center">
   <a href="https://github.com/kanchn-https?tab=followers">
-    <img src="https://img.shields.io/github/followers/kanchn-https?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0F172A&color=EF93C4" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/kanchn-https?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0F172A&color=C41E3A" alt="Followers" />
   </a>
   <a href="https://github.com/kanchn-https">
-    <img src="https://img.shields.io/github/stars/kanchn-https?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=0F172A&color=FF69B4" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/kanchn-https?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=0F172A&color=E63946" alt="Stars" />
   </a>
-  <a href="https://komarev.com/ghpvc/?username=kanchn-https&style=for-the-badge&label=PROFILE+VIEWS&color=EF93C4&base=0F172A">
-    <img src="https://komarev.com/ghpvc/?username=kanchn-https&style=for-the-badge&label=PROFILE+VIEWS&color=EF93C4" alt="Profile Views" />
+  <a href="https://komarev.com/ghpvc/?username=kanchn-https&style=for-the-badge&label=PROFILE+VIEWS&color=C41E3A&base=0F172A">
+    <img src="https://komarev.com/ghpvc/?username=kanchn-https&style=for-the-badge&label=PROFILE+VIEWS&color=C41E3A" alt="Profile Views" />
   </a>
 </p>
 
@@ -66,7 +66,7 @@
       <br/>
     </td>
     <td width="35%" align="center" valign="middle">
-      <img src="assets/portrait.jpg" width="100%" style="border-radius: 16px; border: 2px solid #EF93C4; box-shadow: 0 8px 24px rgba(239, 147, 196, 0.35); display: block;" alt="Kanchan Bhatt Portrait" />
+      <img src="assets/portrait.jpg" width="100%" style="border-radius: 16px; border: 2px solid #C41E3A; box-shadow: 0 8px 24px rgba(196, 30, 58, 0.35); display: block;" alt="Kanchan Bhatt Portrait" />
     </td>
   </tr>
 </table>
@@ -229,16 +229,16 @@
 ## 📊 GITHUB METRICS & ANALYTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kanchn-https&show_icons=true&theme=synthwave&title_color=EF93C4&icon_color=FF69B4&text_color=F8FAFC&bg_color=030712&border_color=EF93C4&border_radius=12" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanchn-https&layout=compact&theme=synthwave&title_color=EF93C4&text_color=F8FAFC&bg_color=030712&border_color=EF93C4&border_radius=12" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kanchn-https&show_icons=true&theme=synthwave&title_color=C41E3A&icon_color=E63946&text_color=F8FAFC&bg_color=030712&border_color=C41E3A&border_radius=12" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanchn-https&layout=compact&theme=synthwave&title_color=C41E3A&text_color=F8FAFC&bg_color=030712&border_color=C41E3A&border_radius=12" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kanchn-https&theme=dark&background=030712&border=EF93C4&stroke=FF69B4&ring=EF93C4&fire=FF69B4&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=EF93C4&sideLabels=EF93C4&dates=94A3B8&border_radius=12" width="97%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kanchn-https&theme=dark&background=030712&border=C41E3A&stroke=E63946&ring=C41E3A&fire=E63946&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=C41E3A&sideLabels=C41E3A&dates=94A3B8&border_radius=12" width="97%" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kanchn-https&theme=react-dark&bg_color=030712&title_color=EF93C4&line=FF69B4&point=F8BBD0&area=true&hide_border=false&border_color=EF93C4" width="97%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kanchn-https&theme=react-dark&bg_color=030712&title_color=C41E3A&line=E63946&point=FF4D6D&area=true&hide_border=false&border_color=C41E3A" width="97%" alt="Activity Graph" />
 </p>
 
 </div>
@@ -302,6 +302,6 @@
 <!-- ==================================================================== -->
 <!-- PINK CAPSULE RENDER FOOTER                                           -->
 <!-- ==================================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=EF93C4&height=120&section=footer" width="100%" alt="Capsule Render Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=C41E3A&height=120&section=footer" width="100%" alt="Capsule Render Footer"/>
 
 </div>
